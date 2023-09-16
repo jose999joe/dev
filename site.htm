@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jose Teck - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><button id="home-button">Home</button></li>
+          <li><button id="about-button"><a href="about.html">About</a></li>
+          <li><button id="project-button"><a href="projects.html">Projects</a></li>
+          <li><button id="contact-button"><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Home Page Section -->
+    <section id="home" class="home-section">
+      <h1>Jose Teck</h1>
+      <p>Web Developer</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Jose Teck</p>
+    </footer>
+    <script>
+      const homeButton = document.getElementById("home-button");
+
+      homeButton.addEventListener("click", () => {
+        // Scroll to the home section (adjust 'home' to match your section ID)
+        document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
