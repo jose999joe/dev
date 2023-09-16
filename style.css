@@ -1,0 +1,166 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 7px;
+    padding: 16px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+
+body {
+    background-image: url('images/sitebackground.png'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size:cover; /* Adjust to your preferred size setting */
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+#home-button {
+    background-color: transparent;
+    background-size:auto;
+    color: white;
+    border:30em;
+    border-radius: 40em;
+    border-color: white;
+    padding: 10px 20px;
+    cursor:grab;
+    font-size:xx-large;
+}
+
+#home-button:hover {
+    background-color: blue;
+    border-color: white;
+    border-radius: 30px;
+}
+#about-button {
+    background-color: transparent;
+    background-size:auto;
+    color: white;
+    border:30em;
+    border-radius: 40em;
+    border-color: white;
+    padding: 10px 20px;
+    cursor:grab;
+    font-size:xx-large;
+
+}
+#about-button:hover {
+    background-color:blue;
+    border-color: white;
+    border-radius: 30px;
+}
+#project-button {
+    background-color: transparent;
+    background-size:auto;
+    color: white;
+    border:30em;
+    border-radius: 40em;
+    border-color: white;
+    padding: 10px 20px;
+    cursor:grab;
+    font-size:xx-large;
+
+}
+#project-button:hover {
+    background-color:blue;
+    border-color: white;
+    border-radius: 30px;
+}
+#contact-button {
+    background-color:transparent;
+    background-size:auto;
+    color: white;
+    border:30em;
+    border-radius: 40em;
+    border-color: black;
+    padding: 10px 20px;
+    cursor:grab;
+    font-size:xx-large;
+
+}
+#contact-button:hover {
+    background-color:blue;
+    border-color: black;
+    border-radius: 30px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Style sections */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+section p {
+    color: black;
+    font-style: italic;
+}
+
+/* Style projects */
+.project {
+    color: white;
+    background-color:transparent;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    font-style: normal;
+}
+.about {
+    color: white;
+    background-color:transparent;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+
+/* Style footer */
+footer {
+    padding: 700px 0;
+    background-color:transparent;
+    color:black;
+}
+footer p{
+    margin: 0;
+    text-align: left;
+}
+/* Example: Using percentage for container width */
+ /* Center the container horizontally */
+/* Example: Adjusting font size for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+/* Example: Making images responsive */
+.facebooklogo{
+    width: 4em;
+    height: 4em;
+    float: left;
+    margin: 10px;
+}
+
+
+    
+
